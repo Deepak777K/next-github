@@ -1,29 +1,29 @@
 // pages\index.js
 
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
-import logo from "./stock-logo.svg";
-import WhatsApp from "./whatsapp.svg";
-import userIcon from "./customer.svg";
-import star from "./star.svg";
-import hero from "./hero-img.svg";
-import angle from "./angelone.jpg";
-import groww from "./groww.png";
-import dhan from "./dhan.png";
-import mg from "./mg.png";
-import jp from "./jp.png";
-import temp from './file.svg'
-import i1 from './i1.png'
-import i2 from './i2.png'
-import i3 from './i3.png'
-import i4 from './i4.png'
+// import logo from "./stock-logo.svg";
+// import WhatsApp from "./whatsapp.svg";
+// import userIcon from "./customer.svg";
+// import star from "./star.svg";
+// import hero from "./hero-img.svg";
+// import angle from "./angelone.jpg";
+// import groww from "./groww.png";
+// import dhan from "./dhan.png";
+// import mg from "./mg.png";
+// import jp from "./jp.png";
+import temp from ''
+import i1 from ''
+import i2 from ''
+import i3 from ''
+import i4 from ''
 
 function Navbar() {
 	return (
 		<nav className="w-full rounded-lg bg-black/35">
 			<div className="flex flex-col md:flex-row justify-between items-center p-3">
 				<Link href="/">
-					<Image src={logo} alt="Logo" width={120} height={48} />
+					{/* <Image src={logo} alt="Logo" width={120} height={48} /> */}
 				</Link>
 
 				<div className="flex flex-col md:flex-row gap-4 w-full md:w-auto mt-4 md:mt-0">
@@ -31,7 +31,7 @@ function Navbar() {
 						href="/whatsapp"
 						className="flex items-center justify-center border border-white text-white bg-transparent px-4 py-2 rounded-md hover:bg-white hover:text-black transition h-12"
 					>
-						<Image src={WhatsApp} alt="WhatsApp Logo" width={24} height={24} />
+						{/* <Image src={WhatsApp} alt="WhatsApp Logo" width={24} height={24} /> */}
 					</Link>
 
 					<Link
@@ -108,26 +108,26 @@ function OverlapDiv() {
 					>
 						<div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
 							<div className="mb-4">
-								<Image
+								{/* <Image
 									src={item.icon}
 									alt={`Icon ${index + 1}`}
 									width={40}
 									height={40}
-								/>
+								/> */}
 							</div>
 							<h2 className="text-xl sm:text-2xl font-semibold mb-2 break-words">{item.title}</h2>
 							<p style={{ fontSize: '18px', wordBreak: 'break-word' }}>{item.para}</p>
 						</div>
 
 						<div className="md:w-1/2">
-							<Image
+							{/* <Image
 								src={item.rightImg}
 								alt={`Image ${index + 1}`}
 								width={400}
 								height={250}
 								className="rounded-md shadow-md w-full h-auto object-cover"
 								style={{ width: 'auto', height: '390px', objectFit: 'contain' }}
-							/>
+							/> */}
 						</div>
 					</div>
 				))}
@@ -137,9 +137,9 @@ function OverlapDiv() {
 }
 
 export default function Home() {
-	const logos = [
-		angle, groww, dhan, mg, jp
-	];
+	// const logos = [
+	// 	angle, groww, dhan, mg, jp
+	// ];
 
 	return (
 		<div className="bg-black text-white font-sans min-h-screen w-full">
@@ -151,19 +151,19 @@ export default function Home() {
 
 					<section className="flex flex-col items-center text-center px-4 sm:px-6 md:px-10 mt-20">
 						<div className="flex items-center gap-2 text-sm px-4 py-2 rounded-full mb-6 bg-white/10">
-							<Image
+							{/* <Image
 								src={userIcon}
 								alt="User icon"
 								width={20}
 								height={20}
 								style={{ width: "77px", height: "auto", objectFit: "contain" }}
-							/>
+							/> */}
 							1,00,000+ Attendees
 						</div>
 
 						<h1 className="text-4xl sm:text-5xl font-bold mb-4">Introducing</h1>
 						<h1 className="text-4xl sm:text-5xl font-bold mb-4 flex items-center justify-center gap-2">
-							<Image src={star} alt="Star Icon" width={32} height={32} />
+							{/* <Image src={star} alt="Star Icon" width={32} height={32} /> */}
 							AI Powered Signals
 						</h1>
 						<p className="text-lg text-gray-300 mb-8 max-w-xl">
@@ -184,7 +184,7 @@ export default function Home() {
 						</div>
 
 						<div className="mt-12 w-full max-w-md">
-							<Image src={hero} alt="Hero Image" className="w-full h-auto" priority />
+							{/* <Image src={hero} alt="Hero Image" className="w-full h-auto" priority /> */}
 						</div>
 					</section>
 				</div>
@@ -196,7 +196,7 @@ export default function Home() {
 				</p>
 
 				<div className="overflow-hidden whitespace-nowrap">
-					<div className="inline-flex animate-scroll space-x-12">
+					{/* <div className="inline-flex animate-scroll space-x-12">
 						{[...logos, ...logos, ...logos].map((logo, index) => (
 							<Image
 								key={index}
@@ -207,7 +207,7 @@ export default function Home() {
 								className="grayscale opacity-70 hover:opacity-100 hover:grayscale-0 transition duration-300"
 							/>
 						))}
-					</div>
+					</div> */}
 				</div>
 			</section>
 			<OverlapDiv />
