@@ -2,21 +2,21 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../public/stock-logo.svg";
-import WhatsApp from "../public/whatsapp.svg";
-import userIcon from "../public/customer.svg";
-import star from "../public/star.svg";
-import hero from "../public/hero-img.svg";
-import angle from "../public/angelone.jpg";
-import groww from "../public/groww.png";
-import dhan from "../public/dhan.png";
-import mg from "../public/mg.png";
-import jp from "../public/jp.png";
-import temp from '../public/file.svg'
-import i1 from '../public/i1.png'
-import i2 from '../public/i2.png'
-import i3 from '../public/i3.png'
-import i4 from '../public/i4.png'
+import logo from "./stock-logo.svg";
+import WhatsApp from "./whatsapp.svg";
+import userIcon from "./customer.svg";
+import star from "./star.svg";
+import hero from "./hero-img.svg";
+import angle from "./angelone.jpg";
+import groww from "./groww.png";
+import dhan from "./dhan.png";
+import mg from "./mg.png";
+import jp from "./jp.png";
+import temp from './file.svg'
+import i1 from './i1.png'
+import i2 from './i2.png'
+import i3 from './i3.png'
+import i4 from './i4.png'
 
 function Navbar() {
 	return (
